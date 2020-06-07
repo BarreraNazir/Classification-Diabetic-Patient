@@ -1,0 +1,53 @@
+Overview
+
+This project consist of three phases
+
+1. Diabetic Dataset:
+
+    1.1 Dataset overview:
+    
+         Diabetes is a condition that impedes the body's capacity to process blood glucose. Various types of diabetes can take place. 
+         Three significant diabetes types evolve Type 1, type 2, and gestational diabetes. 
+         
+         Type I: Also known as juvenile diabetes, this happens when the body neglects to deliver insulin. Patient with type I diabetes 
+         is insulin-dependent, which implies they should take drip of insulin day by day to remain alive. 
+         
+         Type 2: The body makes insulin, unlike in type I. The cells in the body don't react as viably as they once did. This is the 
+         most widely recognized diabetes. 
+         
+         Gestational: This type happens in ladies during pregnancy when the body can turn out to be less touchy to insulin. Gestational 
+         diabetes doesn't happen in all ladies and typically resolve after conceiving an offspring.
+         
+    1.2 Dataset details:
+    
+         The dataset contain 2000 rows and 09 variables namely, Pregnancies, Glucose, BloodPressure, SkinThickness, Insulin, BMI, 
+         DiabetesPedigreeFunction, Age and Outcome. 
+             
+2. Pre-Processing:
+
+    2.1 Identifying missing values:
+    
+         With the help of plots and summary statistics, outlier and missing values are not identified in the data. 
+         
+    2.2 Normalization:
+    
+        The independent variable is transformed using normalization. It involves scalling all values for given attribute in order to 
+        make them fall within a small specified range. 
+   
+3. Data Visualization:
+
+        The visualization shows the distribution of classes present in the data.
+        
+4. Classification:
+
+        It predict categorical labels, to categorize patient as either diabetic or non-diabetic. The classification include two steps:
+        
+        - Building the classifier or model:
+        
+            The classifier is build from the training set including the data of dependent and independent variable. 
+            
+        - Using classifier for classification:
+        
+            The classifier is used for classification. Here the test data is used to estimate the accuracy of models. The classifier can 
+            be applied to new data if results is considered as acceptable. 
+        
